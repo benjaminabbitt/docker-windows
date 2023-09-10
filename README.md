@@ -3,7 +3,7 @@ As a software architect who does work, frequently, on Windows at large clients, 
 
 It is reproduced in Git repository form to make things easier for me and my teams.
 
-##Process
+## Process
 
 ### Install WSL
 
