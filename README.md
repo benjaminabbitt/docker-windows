@@ -7,7 +7,7 @@ It is reproduced in Git repository form to make things easier for me and my team
 
 ### Install WSL
 
-Run `install_wsl.ps1`
+Run `1-install_wsl.ps1`
 
 This will install Windows Subsystem for Linux, which will itself run the docker daemon (in the next step).
 
@@ -19,6 +19,6 @@ This installs the docker daemon and associates your user to the docker group, so
 
 ### Set up aliases
 
-Run `setup_aliases.ps1`
+Run `3-setup_aliases.ps1`
 
 This binds the powershell command `docker` to the command `wsl docker` so that anytime the user runs the docker binary, it's actually running the binary *inside* of WSL, talking to the linux wsl environment.
